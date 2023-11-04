@@ -4,6 +4,8 @@ Volume Control Gesturing is an innovative system volume management tool that all
 ## Logic ##
 Using your system's visual feed, A Convolution Neural Network Model tracks hand movement for every frame. Once a hand is detected, the distance between the tips on index finger and thumb are calculated and on the basis of change in distance in current frame versus the last frame, the current volume is increased or decreased on that basis.
 
+The program does not prefer a specific hand, the hand present in previous frame will be continued to be noticed.
+
 ## Run ##
 `python Volume_Control.py`
 
