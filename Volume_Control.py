@@ -70,4 +70,4 @@ class VolumeControl:
             cv2.waitKey(1)
 
 if __name__ == '__main__':
-    VolumeControl().run(show=False)
+    VolumeControl().run(show=True)
